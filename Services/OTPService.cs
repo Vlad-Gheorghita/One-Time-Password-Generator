@@ -61,8 +61,6 @@ namespace One_Time_Password_Generator.Services
             if (user == null)
                 return CheckOTPResponseCode.InvalidUserID;
 
-            //return otp.Equals(user.OTP) && IsValid(user);
-
             if (!otp.Equals(user.OTP))
                 return CheckOTPResponseCode.InvalidOTP;
 

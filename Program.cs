@@ -13,7 +13,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //Add DataContext
-
 builder.Services.AddDbContext<DataContext>(options =>
 {
     options.UseSqlite("Data source=otp.db");
