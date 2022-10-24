@@ -78,7 +78,7 @@ namespace One_Time_Password_Generator.Services
         /// <param name="user"></param>
         /// <returns>
         /// True if OTP is not expired <br />
-        /// False if OTP is expired or not activated yet
+        /// False if OTP is expired
         /// </returns>
         private static bool IsExpired(User user)
         {
